@@ -15,7 +15,7 @@ ROUTING_LOG_DIR = LOGS_DIR / "orchestrator"
 RESPONSE_LOG_DIR = LOGS_DIR / "openai_agent"
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-LLM_JUDGE_MODEL = os.getenv("LLM_JUDGE_MODEL")
+LLM_JUDGE_MODEL = os.getenv("LLM_JUDGE_MODEL","gpt-4o-mini")
 client = OpenAI(api_key=OPENAI_API_KEY)
 
 LLM_JUDGE_ENABLED = True
