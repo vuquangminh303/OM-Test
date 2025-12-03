@@ -9,7 +9,7 @@ Key files and folders
 
 Required inputs for `/eval`
 - `response_id_path`: path to a `.txt` file that contains a list of `response_id`s (one per line). These IDs correspond to entries contained in `logs/openai_agent/responses_<date>.jsonl`.
-- `ground_truth_path`: path to a CSV file containing ground truth data (questions, answers, etc.). You can place this file in the same directory that contains `logs/` (the repository root by default). If you have a CSV on Google Drive, download it and set this path to the downloaded file. Replace the placeholder `GOOGLE_DRIVE_LINK_HERE` with your actual link in your notes.
+- `ground_truth_path`: path to a CSV file containing ground truth data (questions, answers, etc.). You can place this file in the same directory that contains `logs/` (the repository root by default). If you have a CSV on Google Drive, download it and set this path to the downloaded file. Replace the placeholder `https://drive.google.com/file/d/1ckMbY0GGDeK-VQPXHIkS6jjTtLSAAMM2/view?usp=drive_link` with your actual link in your notes.
 
 Example `response_ids.txt` (one id per line):
 ```
